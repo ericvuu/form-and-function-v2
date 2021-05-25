@@ -22,7 +22,7 @@ const Cases = () => {
       subtitle: "Kitchen Curation",
       title: "Build your perfect kitchen.",
       img: "kitchen",
-    },
+    }
   ];
 
   return (
