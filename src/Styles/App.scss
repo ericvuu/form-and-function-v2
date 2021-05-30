@@ -9,6 +9,7 @@
 
 body,
 html {
+  visibility: hidden;
   user-select: none;
   background: $white;
   overscroll-behavior: none;
@@ -59,5 +60,21 @@ html {
   .row {
     display: flex;
     height: 100%;
+  }
+}
+
+.App {
+  z-index: 2;
+  transform: translateY(0);
+  position: relative;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  background: $white;
+  .row {
+    display: flex;
+    align-items: center;
   }
 }
